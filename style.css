@@ -2,6 +2,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 21px;
+}
 body {
     background-color: rgb(255, 255, 255);
   }
@@ -29,9 +36,6 @@ nav a:hover {
     width: 50%;
   }
 
-  p {
-    font-size: 24px;
-  }
 /* Style your timeline plot and other content */
 #timeline {
     /* Add styles for your timeline plot */
