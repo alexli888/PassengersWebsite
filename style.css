@@ -6,9 +6,14 @@ h2 {
   text-align: center;
 }
 
-p {
+h3 {
+  text-align: center;
   font-size: 21px;
 }
+
+p1 {
+  font-size: 21px;
+} 
 body {
     background-color: rgb(255, 255, 255);
   }
