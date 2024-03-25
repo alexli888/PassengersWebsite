@@ -13,7 +13,8 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-/* Style your navigation bar */
+
+/* Style of the nav bar */
 nav {
     background-color: #353132;
     color: white;
@@ -29,6 +30,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Define Center*/
 .center {
     display: block;
     margin-left: auto;
@@ -36,8 +38,4 @@ nav a:hover {
     width: 50%;
   }
 
-/* Style your timeline plot and other content */
-#timeline {
-    /* Add styles for your timeline plot */
-}
-/* Add additional styles for other sections as needed */
+
