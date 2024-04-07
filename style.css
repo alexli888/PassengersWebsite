@@ -43,4 +43,28 @@ nav a:hover {
     width: 50%;
   }
 
+.section h4{
+  margin: 0;
+  font-size: 22px;
+}
+
+
+body{
+  margin: 0;
+}
+
+.section{
+  background-color:#f0f0f0;
+  display: flex;
+  border-radius: 12px;
+  justify-content: space-between;
+  padding: 20 px;
+  width: 60%;
+  margin: 2rem auto 0 auto;
+}
+
+.section img{
+  height: 250px;
+
+}
 
