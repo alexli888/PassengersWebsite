@@ -56,10 +56,10 @@ body{
 .section{
   background-color:#f0f0f0;
   display: flex;
-  border-radius: 12px;
+  border-radius: 14px;
   justify-content: space-between;
-  padding: 20 px;
-  width: 60%;
+  padding: 30 px;
+  width: 69%;
   margin: 2rem auto 0 auto;
 }
 
