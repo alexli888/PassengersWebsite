@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Makers' Intent with Regards to Computing</title>
-    <link rel="stylesheet" href="style.css">
     <style>
-
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            margin: 0 10px; /* Adjust margin as needed */
+        }
         .rounded-iframe {
-        border-radius: 21px; /* Adjust the radius as needed */
-        overflow: hidden; /* Ensure content within the iframe stays within rounded corners */
+            border-radius: 21px;
+            overflow: hidden;
         }
         .paragraphs {
-        border: 3px solid #f0f0f0;
-        border-radius: 10px;
-        padding: 10px;
-        background-color: #f0f0f0;
-        max-width: 1700px; /* Adjust the max-width value as needed */
-        margin: 0 auto; /* Center the container horizontally */
+            border: 3px solid #f0f0f0;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            max-width: 1700px;
+            margin: 0 auto;
         }
         .centered-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        
-        
         nav {
             border-radius: 15px;
-             
+            background-color: #353132;
+            color: rgb(241, 236, 236);
+            padding: 10px;
+            text-align: center;
         }
-
+        nav a {
+            color: rgb(241, 236, 236);
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #3f94da;
+        }
         .dropdown {
             position: relative;
             display: inline-block;
         }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -45,42 +57,38 @@
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
-
         .dropdown:hover .dropdown-content {
             display: block;
         }
-
         .dropdown-content a {
             color: rgb(241, 236, 236);
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
-
         .dropdown-content a:hover {
             background-color: #3f94da;
         }
-        
-
         p {
-        font-size: 21px;
+            font-size: 21px;
         } 
-
         p1 {
             font-size: 15px;
         }
 
+        h1 {
+            text-align: center;
+        }
     </style>
-     <link rel="icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <h1>Movie Makers' Intent with Regards to Computing</h1>
     <nav>   
-        <a href = "index.html"> Home</a>
+        <a href="index.html">Home</a>
         <a href="post-meeting-minutes.html">Post Meeting Minutes</a>
         <a href="computing_tech.html">Computing Technologies</a>
         <div class="dropdown">
-            <span>Course Topics&#9660;  </span>
+            <span>Course Topics&#9660;</span>
             <div class="dropdown-content">
                 <a href="topic1.html">Ch3: Networked Communication</a>
                 <a href="topic2.html">Ch4: Intellectual Property</a>
@@ -93,40 +101,28 @@
         </div>
         <a href="timeline.html">Plot Timeline of Computing Events</a>
         <a href="movie-makers-intent.html">Movie Makers' Intent with Regards to Computing</a>
-        <a href="in-depth-analysis.html">In-Depth Analysis of Computing - Societal Conclusions</a>
+        <a href="in-depth-analysis.html">Computing - Societal Conclusions</a>
     </nav>
-   
    
     <section id="movie-makers-intent">
         <br>
         <div class="paragraphs">
-
-            <img src ="images/jon_spaihts.png" width="200" height="200"  text-align="center"/>
-            <img src ="images/mortentyldum.jpg" width="200" height="200" text-align="center" />
-       <p>
-        The screenwriter for Passenger was Jon Spaihts, the same mind behind movies such as Prometheus and Dr. Strange. Spaihts is overall known for his science fiction genre of writing, and his work on Passengers is no exception in regard to his typical style; however, the story behind his creation of the film shows that the technology was actually intended to take more of a back seat. Spaihts's original vision arose from ideas of isolation and finding love in a place in "which no one else can see into," metaphorically and literally.[1] The concept of entrapment within the confines of an interstellar ship due to the failure of hibernation soon followed, and the foundation of Passengers was set.[2]
-        </p>
-        <p>There are notable inaccuracies with the computing technologies and overall science in Spaiht's written work, and he acknowledges this, stating that the purpose of the movie is to not commentate on computing technologies alone, but moreso how they impact human beings. "Ultimately," he says, "you want to focus on the characters' story."[3] The setting of the Avalon sets the stage for a narration of philosophical questions and ethical decisions that the audience can discuss when they step outside of the theater. The scenario of being stranded on the ship exists to "provide external metaphors for the internal experiences we all have already."</p>
-    <p>The director of Passengers, Morten Tyldum, agrees with Spaihts's sentiment; the relationship between Jim Preston and Aurora Lane takes center stage in the film, made possible thanks to the science fiction setting of the movie and the computing technologies that bring the story to life. He does discuss smaller but still prominent themes of the movies related to computing devices. He brings up how Passengers takes place in a future where all necessary machines are so common on Earth that one can be thrown away for another if it is to break. As a result, Jim the mechanic "is not needed in his planet anymore, he’s obsolete."[4]</p>   
-<p>Tyldum also discusses the relationship that Jim and Aurora each have with Arthur. Arthur is an android with artificial intelligence, and yet it is visible in the movie that both Jim and Aurora are able to develop deep, human-like relationships with him. Tyldum adds onto this, posing the questions of, "What does it mean to be human, a machine, alive? If we think a machine can be human is it human?"[4] There are clearly many smaller themes that arise from the existence of computing devices in Passengers. Nonetheless, it is clear from both the director and screenwriter of the film, that the heart of the movie's technological body is the relationship and story of two passengers. 
-</p>    
-</div>
-
-        <div class="rounded-iframe">
-        <p align="center"><iframe width="420" height="315" src="https://www.youtube.com/embed/8RcpjOhdsjA"> </iframe> </p>
+            <div class="image-container">
+                <img src="images/jon_spaihts.png" width="200" height="200" alt="Jon Spaihts">
+                <img src="images/mortentyldum.jpg" width="200" height="200" alt="Morten Tyldum">
+            </div>
+            <p>The screenwriter for Passenger was Jon Spaihts, the same mind behind movies such as Prometheus and Dr. Strange. Spaihts is overall known for his science fiction genre of writing, and his work on Passengers is no exception in regard to his typical style; however, the story behind his creation of the film shows that the technology was actually intended to take more of a back seat. Spaihts's original vision arose from ideas of isolation and finding love in a place in "which no one else can see into," metaphorically and literally. The concept of entrapment within the confines of an interstellar ship due to the failure of hibernation soon followed, and the foundation of Passengers was set.</p>
+            <p>There are notable inaccuracies with the computing technologies and overall science in Spaiht's written work, and he acknowledges this, stating that the purpose of the movie is to not commentate on computing technologies alone, but moreso how they impact human beings. "Ultimately," he says, "you want to focus on the characters' story." The setting of the Avalon sets the stage for a narration of philosophical questions and ethical decisions that the audience can discuss when they step outside of the theater. The scenario of being stranded on the ship exists to "provide external metaphors for the internal experiences we all have already."</p>
+            <p>The director of Passengers, Morten Tyldum, agrees with Spaihts's sentiment; the relationship between Jim Preston and Aurora Lane takes center stage in the film, made possible thanks to the science fiction setting of the movie and the computing technologies that bring the story to life. He does discuss smaller but still prominent themes of the movies related to computing devices. He brings up how Passengers takes place in a future where all necessary machines are so common on Earth that one can be thrown away for another if it is to break. As a result, Jim the mechanic "is not needed in his planet anymore, he’s obsolete."</p>
+            <p>Tyldum also discusses the relationship that Jim and Aurora each have with Arthur. Arthur is an android with artificial intelligence, and yet it is visible in the movie that both Jim and Aurora are able to develop deep, human-like relationships with him. Tyldum adds onto this, posing the questions of, "What does it mean to be human, a machine, alive? If we think a machine can be human is it human?" There are clearly many smaller themes that arise from the existence of computing devices in Passengers. Nonetheless, it is clear from both the director and screenwriter of the film, that the heart of the movie's technological body is the relationship and story of two passengers.</p>
         </div>
 
-        <p1>&emsp;Written by Alex Li </p1>
-        <br>
-        <p1>&emsp;References:</p1>
-        <br>
-        <p1>&emsp;1. https://www.youtube.com/watch?v=8RcpjOhdsjA (4/16/2024)</p1>
-        <br>
-        <p1>&emsp;2. https://screenrant.com/passengers-movie-interview-morten-tyldum/ (4/16/2024)</p1>
+        <div class="rounded-iframe">
+            <p align="center"><iframe width="420" height="315" src="https://www.youtube.com/embed/8RcpjOhdsjA"></iframe></p>
+        </div>
 
-        <p>Special features, interviews with director, screen writer, author of adapted material, producer, tech consultants, etc. </p>
-        <p>Get what the reason for this movie is, what is the people trying to convey from this movie</p>
+        <p1>&emsp;Written by Zackary Perry</p1>
+        <br>
     </section>
-
 </body>
 </html>
